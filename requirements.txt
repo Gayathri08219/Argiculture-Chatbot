@@ -27,4 +27,4 @@ pydantic
 streamlit
 
 # Build fix for chromadb on Render
-numpy==1.26.4
+numpy
