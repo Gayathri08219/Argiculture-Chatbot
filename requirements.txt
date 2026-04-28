@@ -1,17 +1,16 @@
 # Core API
-# force rebuild
 fastapi==0.110.0
 uvicorn==0.27.0
 python-dotenv==1.0.1
 
-# CrewAI (FIXED)
-crewai==0.11.2
+# CrewAI
+crewai==0.28.0
 
-# LangChain (safe stable core)
+# LangChain
 langchain-core==0.1.52
 
-# Vector DB
-chromadb==0.4.24
+# Vector DB (use chromadb without native build)
+chromadb==0.5.0
 
 # LLM APIs
 openai==1.30.1
@@ -26,3 +25,6 @@ pydantic==2.7.1
 
 # Optional UI
 streamlit==1.33.0
+
+# Build fix for chromadb on Render
+numpy==1.26.4
