@@ -1,30 +1,30 @@
 # Core API
-fastapi==0.110.0
-uvicorn==0.27.0
-python-dotenv==1.0.1
+fastapi
+uvicorn
+python-dotenv
 
 # CrewAI
-crewai==0.28.0
+crewai
 
 # LangChain
-langchain-core==0.1.52
+langchain-core
 
 # Vector DB (use chromadb without native build)
-chromadb==0.5.0
+chromadb
 
 # LLM APIs
-openai==1.30.1
-groq==0.5.0
+openai
+groq
 
 # HTTP
-httpx==0.27.0
-requests==2.31.0
+httpx
+requests
 
 # Data handling
-pydantic==2.7.1
+pydantic
 
 # Optional UI
-streamlit==1.33.0
+streamlit
 
 # Build fix for chromadb on Render
 numpy==1.26.4
