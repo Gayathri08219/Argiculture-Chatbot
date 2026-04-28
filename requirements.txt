@@ -1,12 +1,12 @@
 # Core API
 fastapi==0.110.0
-uvicorn==0.29.0
+uvicorn==0.27.0
 python-dotenv==1.0.1
 
-# CrewAI
-crewai==1.14.2
+# CrewAI (FIXED)
+crewai==0.11.2
 
-# LangChain (minimal)
+# LangChain (safe stable core)
 langchain-core==0.1.52
 
 # Vector DB
@@ -23,5 +23,5 @@ requests==2.31.0
 # Data handling
 pydantic==2.7.1
 
-# Optional UI (if using Streamlit)
+# Optional UI
 streamlit==1.33.0
